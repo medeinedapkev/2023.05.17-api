@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <button class="random-joke">Random Joke</button>
+
+    <form class="form-categories">
+        <label for="category">Choose joke category:</label>
+        <select name="joke-categories" id="category"></select>
+        <input class="joke-button" type="submit" disabled>
+    </form>
+
+    <form class="search-form">
+        <input type="text" id="search">
+        <input type="submit" class="search-joke-button">
+    </form>
+
+    <form class="search-categories-form">
+        <label for="categories">Choose joke category:</label>
+        <select name="categories" id="categories"></select>
+        <input type="text" id="search-for">
+        <input type="submit" class="search-button">
+    </form>
+    <div class="joke-wrapper"></div>
+    <script src="script.js"></script>
+</body>
+</html>
